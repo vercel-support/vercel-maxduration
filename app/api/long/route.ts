@@ -4,8 +4,8 @@ const busyWait = async (duration: number): Promise<boolean> => {
   return true;
 };
 
-export const maxDuration = 90;
 export const dynamic = "force-dynamic";
+export const maxDuration = 90;
 
 export const GET = async (): Promise<any> => {
   const result = await busyWait(70000);
